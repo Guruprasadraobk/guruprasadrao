@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="5" total="7" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Title is matching actiTIME - Enter Time-Track]]>
+    </line>
+    <line>
+      <![CDATA[Title is matching actiTIME - Login]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="25022" started-at="2017-11-26T17:03:11Z" finished-at="2017-11-26T17:03:36Z">
+    <groups>
+      <group name="smoke">
+        <method signature="ValidLoginLogout.testValidLoginLogout()[pri:1, instance:com.eaglemortgage.tests.ValidLoginLogout@1057a39]" name="testValidLoginLogout" class="com.eaglemortgage.tests.ValidLoginLogout"/>
+        <method signature="VerifyVersion.testVerifyVersion()[pri:3, instance:com.eaglemortgage.tests.VerifyVersion@be92ad]" name="testVerifyVersion" class="com.eaglemortgage.tests.VerifyVersion"/>
+      </group> <!-- smoke -->
+      <group name="login">
+        <method signature="ValidLoginLogout.testValidLoginLogout()[pri:1, instance:com.eaglemortgage.tests.ValidLoginLogout@1057a39]" name="testValidLoginLogout" class="com.eaglemortgage.tests.ValidLoginLogout"/>
+      </group> <!-- login -->
+    </groups>
+    <test name="Test" duration-ms="25022" started-at="2017-11-26T17:03:11Z" finished-at="2017-11-26T17:03:36Z">
+      <class name="com.eaglemortgage.tests.ValidLoginLogout">
+        <test-method status="PASS" signature="openApp()[pri:0, instance:com.eaglemortgage.tests.ValidLoginLogout@1057a39]" name="openApp" is-config="true" duration-ms="7442" started-at="2017-11-26T22:33:11Z" finished-at="2017-11-26T22:33:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method status="PASS" signature="testValidLoginLogout()[pri:1, instance:com.eaglemortgage.tests.ValidLoginLogout@1057a39]" name="testValidLoginLogout" duration-ms="4424" started-at="2017-11-26T22:33:18Z" finished-at="2017-11-26T22:33:23Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Title is matching actiTIME - Enter Time-Track]]>
+            </line>
+            <line>
+              <![CDATA[Title is matching actiTIME - Login]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testValidLoginLogout -->
+        <test-method status="PASS" signature="CloseApp()[pri:0, instance:com.eaglemortgage.tests.ValidLoginLogout@1057a39]" name="CloseApp" is-config="true" duration-ms="1043" started-at="2017-11-26T22:33:23Z" finished-at="2017-11-26T22:33:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseApp -->
+      </class> <!-- com.eaglemortgage.tests.ValidLoginLogout -->
+      <class name="com.eaglemortgage.tests.Demo">
+        <test-method status="PASS" signature="SetDriverPath()[pri:0, instance:com.eaglemortgage.tests.Demo@be83e4]" name="SetDriverPath" is-config="true" duration-ms="14" started-at="2017-11-26T22:33:11Z" finished-at="2017-11-26T22:33:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetDriverPath -->
+      </class> <!-- com.eaglemortgage.tests.Demo -->
+      <class name="com.eaglemortgage.tests.VerifyVersion">
+        <test-method status="PASS" signature="openApp()[pri:0, instance:com.eaglemortgage.tests.VerifyVersion@be92ad]" name="openApp" is-config="true" duration-ms="6242" started-at="2017-11-26T22:33:24Z" finished-at="2017-11-26T22:33:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method status="PASS" signature="testVerifyVersion()[pri:3, instance:com.eaglemortgage.tests.VerifyVersion@be92ad]" name="testVerifyVersion" duration-ms="4894" started-at="2017-11-26T22:33:30Z" finished-at="2017-11-26T22:33:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyVersion -->
+        <test-method status="PASS" signature="CloseApp()[pri:0, instance:com.eaglemortgage.tests.VerifyVersion@be92ad]" name="CloseApp" is-config="true" duration-ms="946" started-at="2017-11-26T22:33:35Z" finished-at="2017-11-26T22:33:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseApp -->
+      </class> <!-- com.eaglemortgage.tests.VerifyVersion -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
